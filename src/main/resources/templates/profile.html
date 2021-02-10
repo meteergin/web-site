@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Profile</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a class="logo" th:href="@{/}">meteergin.com</a>
+                <ul class="icons">
+                    <li><a class="icon brands fa-twitter" target="_blank"
+                           th:href="@{https://twitter.com/meteergin}"><span class="label">Twitter</span></a></li>
+                    <li><a class="icon brands fa-instagram" target="_blank"
+                           th:href="@{https://instagram.com/meteergin/}"><span class="label">Instagram</span></a></li>
+                    <li><a class="icon brands fa-linkedin" target="_blank"
+                           th:href="@{https://linkedin.com/in/meteergin/}"><span class="label">Linkedin</span></a></li>
+                    <li><a class="icon brands fa-github" target="_blank"
+                           th:href="@{https://github.com/meteergin/}"><span class="label">Github</span></a></li>
+                </ul>
+            </header>
+
+            <!-- Content -->
+            <section>
+                <header class="main">
+                    <h1>Profile</h1>
+                </header>
+
+                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
+                    venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor
+                    sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu
+                    massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris.
+                    Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis,
+                    hendrerit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent
+                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
+                    libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut
+                    ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor.
+                    Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique
+                    senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus.
+                    Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+                <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+                    dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque
+                    leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum
+                    convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+
+                <hr class="major"/>
+
+
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <div class="inner">
+
+            <!-- Menu -->
+            <nav id="menu">
+                <header class="major">
+                    <h2>Menu</h2>
+                </header>
+                <ul>
+                    <li><a href="/">Homepage</a></li>
+                    <li>
+                        <span class="opener">Notes</span>
+                        <ul>
+                            <li><a href="#">Java</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Non-Traditional Turkish Cuisine</a></li>
+                    <li>
+                        <span class="opener">Travel</span>
+                        <ul>
+                            <li><a href="#">Lorem Dolor</a></li>
+                            <li><a href="#">Ipsum Adipiscing</a></li>
+                            <li><a href="#">Tempus Magna</a></li>
+                            <li><a href="#">Feugiat Veroeros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Section -->
+            <section>
+                <header class="major">
+                    <h2>Get in touch</h2>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope"><a href="#">mete.ergin@outlook.com</a></li>
+                    </ul>
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">&copy; meteergin.com. All rights reserved. </p>
+                <p style="font-size: x-small">Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </footer>
+
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script th:src="@{/js/jquery.min.js}" type="text/javascript"></script>
+<script th:src="@{/js/browser.min.js}" type="text/javascript"></script>
+<script th:src="@{/js/breakpoints.min.js}" type="text/javascript"></script>
+<script th:src="@{/js/util.js}" type="text/javascript"></script>
+<script th:src="@{/js/main.js}" type="text/javascript"></script>
+
+</body>
+</html>

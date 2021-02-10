@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+    check-template: false
+    enabled: true
+  application:
+    name: WEB-SITE
+  devtools:
+    add-properties: true
+server:
+  port: 7777
