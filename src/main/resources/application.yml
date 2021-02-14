@@ -8,5 +8,7 @@ spring:
     name: WEB-SITE
   devtools:
     add-properties: true
+  profiles:
+    active: prod
 server:
   port: 7777
